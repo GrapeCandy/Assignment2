@@ -8,7 +8,6 @@ struct stat stat1;
 struct stat stat2;
 struct tm time1; 
 struct tm time2;
-
 void filestat1(void);
 void filestat2(void);
 void filetime1(void);
@@ -77,6 +76,7 @@ void blockcmp(void)
    else printf("sizes are equal\n\n");
 }
 
+
 //두 개의 파일 수정 날짜를 비교하는 함수 작성
 void datecmp(void)
 {
@@ -95,13 +95,20 @@ void datecmp(void)
       printf("same time\n\n");
       }
    }
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 4a24a3f2c4450a157eea50105eed58477b318375
 }
 
 //두 개의 파일 수정 시간을 비교하는 함수 작성
 void timecmp(void)
 {
+<<<<<<< HEAD
  printf("time compare\n");
+=======
+   printf("time compare\n");
+>>>>>>> 4a24a3f2c4450a157eea50105eed58477b318375
    
    if (time1.tm_hour > time2.tm_hour)
       printf("text2 is early\n\n");
@@ -116,5 +123,8 @@ void timecmp(void)
        printf("same time\n\n");
       }
    }
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 4a24a3f2c4450a157eea50105eed58477b318375
 }
