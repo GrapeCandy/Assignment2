@@ -95,8 +95,7 @@ void datecmp(void)
       else{
       printf("same time\n\n");
       }
-   }
-	
+   }	
 }
 
 //두 개의 파일 수정 시간을 비교하는 함수 작성
